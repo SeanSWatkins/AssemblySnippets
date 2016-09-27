@@ -7,7 +7,7 @@ I realise now I should have spent more time getting familiar with Assembly befor
 The requirements of this assignment:
 - Use [NASM] (http://www.nasm.us/)
 - Only use 16bit registers (i.e. Dos, this proved more difficult that I feel it should be)
-  - I had to use [doxbox] (https://www.dosbox.com/) for this
+  - I had to use [DosBox] (https://www.dosbox.com/) for this
 - Clear the screen
 - Change the background to white text on a blue background
 - Print a message for the user to enter a number between 1 and 9
@@ -42,7 +42,7 @@ Although thinking back it might not have been a terrible idea.
 
 #### Running
 
-Anyway, now to run the .com file in DoxBox. This took me a while to figure out.
+Anyway, now to run the .com file in DosBox. This took me a while to figure out.
 
 After you have installed DosBox, open it and run the following:
 ```bash
@@ -71,4 +71,4 @@ etc
 
 #### Debugging
 
-**TO BE CONTINUED**
+**TO BE CONTINUED...**
