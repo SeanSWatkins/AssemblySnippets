@@ -71,4 +71,23 @@ etc
 
 #### Debugging
 
-**TO BE CONTINUED...**
+So debugging Assembly sucks... Well at least I think so. The debug program is meh at the best of times and insanely confusing to use if you have never used it before. I think my biggest issue is that I never use a debugger, my debugging generally involves me working through my code in my head and figuring out where issues are and throwing millions of printlns(), or couts or console logs etc. What I learned about Assembly is there isn't really a quick way to log anything out...Or I haven't figured it out anyways.
+
+Now I am not going to give a tutorial on debug...cause that would be the blind leading the blind, but I will show what I NEEDED to do.
+
+As I mentioned I am using Windows 10, 64 bit...which is problematic in that apparently it doesn't come with a preinstalled version of the debug.exe or debug.com application. There is also a hanging issue using certain versions of debug.exe, which I ran into a couple times until I found [this stackoverflow question](http://stackoverflow.com/a/36236622/1072887) which linked me to a work version of debug.com which was fine for my purposes.
+
+
+So to load multpleofthree.com into the debug application:
+```
+mount c: C:\
+C:\USERS\ME\FOLDER\OF\DEBUG\DEBUG.COM <C:\USERS\ME\FOLDER\OF\AWESOME\MULTIPLEOFTHREE.ASM
+```
+Boom! you're in debug.
+
+You can type '?' to get help on what the debugger can do. The only options I used were:
+- **U** - unassemble  
+- **T** - trace: steps through each executed instruction
+- **Q** - quits the debugger
+
+Like I said, I am not an expert.
